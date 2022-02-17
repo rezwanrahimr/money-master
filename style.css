@@ -17,3 +17,7 @@
 .buttonColor {
     background-color: #59A5FF;
 }
+
+.food {
+    display: none;
+}

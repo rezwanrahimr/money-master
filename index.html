@@ -25,6 +25,7 @@
                 <div class="row">
                     <div class="col-7">
                         <img class="img-fluid main-picture" src="/card-reader-g9a18a6921_1280.png" alt="">
+
                     </div>
                     <div class="col-5 bg-light pb-3">
                         <h3 class="text-center mt-3">Income</h3>
@@ -33,15 +34,20 @@
                         <h3 class="text-center mt-3">Expenses</h3>
                         <p class="text-center fw-bold mt-3">Food : <input id="foodInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
+
+                        <p id="foodError1" class="food text-center">❌ Please enter the number</p>
                         <p class="text-center fw-bold mt-3">Rent : <input id="rentInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
+                        <p id="foodError2" class="food text-center">❌ Please enter the number</p>
                         <p class="text-center fw-bold mt-3 me-3">Clothes : <input id="clothesInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
+                        <p id="foodError3" class="food text-center">❌ Please enter the number</p>
                         <!-- calculate button  -->
                         <div class="text-center">
                             <button id="expensesCalculateButton" class="buttonColor text-white px-5 py-2 fw-bold rounded  border-0">Calculate</button>
                         </div>
                         <h4 class="text-center mt-3">Total Expenses: <span id="totalExpenses">00</span></h4>
+                        <p id="balanceEx" class="food text-center">❌ This is so Expansive</p>
                         <h4 class="text-center mt-3">Balance: <span id="balance">00</span></h4>
 
                         <p class="text-center fw-bold mt-3 me-3">Save : <span><input id="percentageInput" class="border-0 backgroundColor py-2
@@ -49,7 +55,9 @@
                                     id="saveButton"
                                     class="buttonColor text-white px-5 py-2 fw-bold rounded  border-0">Save</button></span>
                         </p>
+                        <p id="parsentage" class="food text-center">❌ Please enter the number</p>
                         <h4 class="text-center mt-3">Saving Amount: <span id="savingAmount">00</span></h4>
+
                         <h4 class="text-center mt-3">Remaining Balance: <span id="remainingBalance">00</span></h4>
 
                     </div>
