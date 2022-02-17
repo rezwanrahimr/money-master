@@ -1,22 +1,39 @@
+/* set picture width */
+
 .main-picture {
     width: 50%;
 }
+
+
+/* Header Titel Color */
 
 .headerTitel {
     color: #31A5AC;
 }
 
+
+/* Input field background color */
+
 .backgroundColor {
     background-color: #DCDCDC;
 }
+
+
+/* Input field width set */
 
 .saveInput {
     width: 132px;
 }
 
+
+/* set button background color */
+
 .buttonColor {
     background-color: #59A5FF;
 }
+
+
+/* Error message display set */
 
 .food {
     display: none;
