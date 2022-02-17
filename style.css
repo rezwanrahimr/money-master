@@ -1,0 +1,23 @@
+.main-picture {
+    width: 50%;
+}
+
+.headerTitel {
+    color: #31A5AC;
+}
+
+.backgroundColor {
+    background-color: #DCDCDC;
+}
+
+.saveInput {
+    width: 132px;
+}
+
+.buttonColor {
+    background-color: #59A5FF;
+}
+
+.food {
+    display: none;
+}
