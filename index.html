@@ -15,7 +15,8 @@
 <body>
 
     <!-- Header section -->
-    <header>
+    <header class="col-sm-12 ">
+        <!-- Head Titel -->
         <h1 class="text-center fw-bold display-5 mb-4 mt-5 headerTitel">Own Money</h1>
     </header>
     <!-- Main section -->
@@ -23,41 +24,52 @@
         <section class="mb-5 mt-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-7">
-                        <img class="img-fluid main-picture" src="/card-reader-g9a18a6921_1280.png" alt="">
+                    <div class="col-lg-7 col-sm-12 d-flex justify-content-center align-items-center mb-3">
+                        <!-- Website Image -->
+                        <img class="img-fluid main-picture col-sm-12 " src="/card-reader-g9a18a6921_1280.png" alt="">
 
                     </div>
-                    <div class="col-5 bg-light pb-3">
+                    <!-- Calculation Part -->
+                    <div class=" col-lg-5 col-sm-12 bg-light pb-3 mt-3">
                         <h3 class="text-center mt-3">Income</h3>
+                        <!-- Income Input field -->
                         <p class="text-center fw-bold mt-3">Income : <input id="incomeInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
                         <h3 class="text-center mt-3">Expenses</h3>
+                        <!-- Food Input field -->
                         <p class="text-center fw-bold mt-3">Food : <input id="foodInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
-
-                        <p id="foodError1" class="food text-center">❌ Please enter the number</p>
+                        <!-- Error Message -->
+                        <p id="ExpensesError1" class="food text-center">❌ Please enter the number</p>
+                        <!-- Rent Input field -->
                         <p class="text-center fw-bold mt-3">Rent : <input id="rentInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
-                        <p id="foodError2" class="food text-center">❌ Please enter the number</p>
+                        <p id="ExpensesError2" class="food text-center">❌ Please enter the number</p>
+                        <!-- Clothes Input field -->
                         <p class="text-center fw-bold mt-3 me-3">Clothes : <input id="clothesInput" class="border-0 backgroundColor p-2 px-5" type="text">
                         </p>
-                        <p id="foodError3" class="food text-center">❌ Please enter the number</p>
-                        <!-- calculate button  -->
+                        <p id="ExpensesError3" class="food text-center">❌ Please enter the number</p>
+
                         <div class="text-center">
+                            <!-- Calculate Button -->
                             <button id="expensesCalculateButton" class="buttonColor text-white px-5 py-2 fw-bold rounded  border-0">Calculate</button>
                         </div>
+                        <!-- Total Expenses -->
                         <h4 class="text-center mt-3">Total Expenses: <span id="totalExpenses">00</span></h4>
-                        <p id="balanceEx" class="food text-center">❌ This is so Expansive</p>
+                        <!-- Total Expenses Error Message -->
+                        <p id="balanceEx" class="food text-center">❌ Over Expended Money</p>
+                        <!-- Balance -->
                         <h4 class="text-center mt-3">Balance: <span id="balance">00</span></h4>
-
+                        <!-- Save Button -->
                         <p class="text-center fw-bold mt-3 me-3">Save : <span><input id="percentageInput" class="border-0 backgroundColor py-2
                                     saveInput" type="text"></span><span class="mx-2">%</span><span><button
                                     id="saveButton"
-                                    class="buttonColor text-white px-5 py-2 fw-bold rounded  border-0">Save</button></span>
+                                    class="buttonColor text-white px-5 py-2 mt-2 fw-bold rounded  border-0">Save</button></span>
                         </p>
-                        <p id="parsentage" class="food text-center">❌ Please enter the number</p>
+                        <p id="savingPercentageMoney" class="food text-center">❌Balance unavailable</p>
+                        <!-- Saving Amount -->
                         <h4 class="text-center mt-3">Saving Amount: <span id="savingAmount">00</span></h4>
-
+                        <!-- Remaining Balance -->
                         <h4 class="text-center mt-3">Remaining Balance: <span id="remainingBalance">00</span></h4>
 
                     </div>
@@ -65,49 +77,6 @@
             </div>
         </section>
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- js -->
